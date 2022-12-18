@@ -1,0 +1,10 @@
+{
+  "domain": "mqtt_publish_hermes_tts_say",
+  "name": "mqtt_publish_hermes_tts_say",
+  "documentation": "https://github.com/home-assistant/example-custom-config/tree/master/custom_components/mqtt_basic_async/",
+  "dependencies": ["mqtt"],
+  "codeowners": [],
+  "requirements": [],
+  "iot_class": "local_polling",
+  "version": "0.1.0"
+}

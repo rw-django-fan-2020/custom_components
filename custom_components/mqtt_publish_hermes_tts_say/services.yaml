@@ -1,0 +1,67 @@
+publish:
+  description: Sendet Text über Hermes-MQTT an Rhasspy und wandelt es in eine Sprachausgabe um
+  fields:
+    text:
+      # Field name as shown in UI
+      name: Text
+      # Description of the field
+      description: Text für tts
+      # Whether or not field is required (default = false)
+      required: true
+      # Advanced fields are only shown when the advanced mode is enabled for the user (default = false)
+      advanced: false
+      # Example value that can be passed for this field
+      example: "Hello World!"
+      # The default field value
+      default: "Hello World!"
+      selector:
+        text:
+    siteId:
+      name: siteId
+      description: Name des Rhasspy-Satelliten
+      required: true
+      advanced: false
+      example: "assistant" 
+      default: "assistant"
+      selector:
+        text:
+    lang:
+      name: language
+      description: Sprache auswählen
+      required: true
+      advanced: false
+      example: "de-DE"
+      default: "de-DE"
+      selector:
+        text:
+    id:
+      name: id
+      description: id
+      required: false
+      advanced: true
+      example: "30430f53-ca10-4551-bf7a-eb89d365aea1"
+      default: "30430f53-ca10-4551-bf7a-eb89d365aea1"
+      selector:
+        text:
+    sessionId:
+      name: sessionId
+      description: sessionId
+      required: false
+      advanced: true
+      example: ""
+      default: ""
+      selector:
+        text:
+    volume:
+      name: Volume
+      description: Volume einstellen
+      required: true
+      advanced: false
+      example: 1
+      default: 1
+      selector:
+        number:
+          min: 0
+          max: 1
+          step: 0.1
+          mode: slider

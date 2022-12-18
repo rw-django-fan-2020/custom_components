@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "mqtt_publish_hermes_tts_say", "mqtt_publish_hermes_tts_say\mqtt_publish_hermes_tts_say.pyproj", "{9452C2BA-B3E7-4549-BDCA-6834F877045F}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "mqtt-music-viz", "mqtt-music-viz\mqtt-music-viz.pyproj", "{DF2E6293-1C0B-457A-90D9-D5778B82FA27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9452C2BA-B3E7-4549-BDCA-6834F877045F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9452C2BA-B3E7-4549-BDCA-6834F877045F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF2E6293-1C0B-457A-90D9-D5778B82FA27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF2E6293-1C0B-457A-90D9-D5778B82FA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33520700-26F5-471A-B04D-EE1F9C10D6E2}
+	EndGlobalSection
+EndGlobal

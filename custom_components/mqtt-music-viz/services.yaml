@@ -1,0 +1,28 @@
+publish:
+  description: Ändert die Farbe einer zigbee-Lampe 
+  fields:
+    http_source_url:
+      # Field name as shown in UI
+      name: http_source_url
+      # Description of the field
+      description: URL oder IP von Audio-http-Stream
+      # Whether or not field is required (default = false)
+      #required: true
+      # Advanced fields are only shown when the advanced mode is enabled for the user (default = false)
+      #advanced: false
+      # Example value that can be passed for this field
+      #example: "Hello World!"
+      # The default field value
+      #default: "Hello World!"
+      selector:
+        text:
+    device:
+      name: Gerät
+      selector:
+        device:
+          entity:          
+            integration: mqtt
+            domain: light
+    colour:
+      name: Farbe
+      color_rgb:
