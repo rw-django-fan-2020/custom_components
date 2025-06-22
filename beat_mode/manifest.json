@@ -6,12 +6,8 @@
   ],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://www.home-assistant.io/integrations/beat_mode",
-  "homekit": {},
+  "documentation": "https://github.com/rw-django-fan-2020/custom_components/tree/master/beat_mode",
   "iot_class": "local_polling",
-  "quality_scale": "bronze",
   "requirements": [],
-  "ssdp": [],
-  "zeroconf": [],
   "version": "0.1.0"
 }
